@@ -24,8 +24,8 @@ module.exports = BTCE
 function BTCE(key, secret) {
   this.key = key
   this.secret = secret
-  this.urlPost = 'https://btc-e.com:443/tapi'
-  this.urlGet = 'https://btc-e.com:443/api/2/'
+  this.urlPost = 'https://btc-e.nz:443/tapi'
+  this.urlGet = 'https://btc-e.nz:443/api/2/'
   this.nonce = BTCE.getTimestamp(Date.now())
 }
 
